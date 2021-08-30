@@ -1,0 +1,6 @@
+[
+    {"id":1,"color":"red","style":"full"},
+    {"id":2,"color":"blue","style":"half"},
+    {"id":3,"color":"yellow","style":"half"},
+    {"id":4,"color":"purple","style":"quarter"}
+]

@@ -1,0 +1,18 @@
+<div id=sunglasses-list>
+    <h2>
+        Sunglasses List
+    </h2>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Brand</th>
+            <th>Quantity</th>
+        </tr>
+        <tr *ngFor="let glasses of sunglasses" style="text-align: center;">
+            <td>{{glasses.id}}</td>
+            <td>{{glasses.brand}}</td>
+            <td>{{glasses.quantity}}</td>
+            <button>Details</button>
+        </tr>
+    </table>
+</div>

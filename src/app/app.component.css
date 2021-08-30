@@ -1,0 +1,10 @@
+#header{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 100;
+    color: goldenrod;
+    background-color: black;
+    border-style:solid;
+    border-radius: 20px;
+}

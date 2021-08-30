@@ -1,0 +1,12 @@
+<div id="earring-list">
+    <h2>Earring List</h2>
+    <table>
+        <tr>
+            <th>Brand</th>
+        </tr>
+        <tr *ngFor="let earring of earrings" style="text-align: center;">
+            <td>{{earring.brand}}</td>
+            <button (onclick)="onSelect(earring)" [routerLink]="['/earring-detail',earring.id]">Details</button>
+        </tr>
+    </table>
+</div>

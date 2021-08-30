@@ -1,0 +1,14 @@
+<div id="earring-detail">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Brand</th>
+            <th>Color</th>
+        </tr>
+        <tr *ngFor="let earring of earrings">
+            <td *ngIf="id == earring.id">{{earring.id}}</td>
+            <td *ngIf="id == earring.id">{{earring.brand}}</td>
+            <td *ngIf="id == earring.id">{{earring.color}}</td>
+        </tr>
+    </table>
+</div>>

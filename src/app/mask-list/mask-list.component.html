@@ -1,0 +1,12 @@
+<div id="mask-list">
+    <h2>Mask List</h2>
+    <table>
+        <tr>
+        <th>Color</th>
+        </tr>
+        <tr *ngFor="let mask of masks" style="text-align:center;">
+            <td>{{mask.color}}</td>
+            <button (onclick)="onSelect(mask)" [routerLink]="['/mask-detail',mask.id]">Details</button>
+        </tr>
+    </table>
+</div>

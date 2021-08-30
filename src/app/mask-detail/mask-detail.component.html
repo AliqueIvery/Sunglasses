@@ -1,0 +1,14 @@
+<div id="mask-detail">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Color</th>
+            <th>Style</th>
+        </tr>
+        <tr *ngFor="let mask of masks" >
+            <td *ngIf="id == mask.id">{{mask.id}}</td>
+            <td *ngIf="id == mask.id">{{mask.color}}</td>
+            <td *ngIf="id == mask.id">{{mask.style}}</td>
+        </tr>
+    </table>
+</div>
