@@ -14,5 +14,7 @@ export class SunglassesListComponent implements OnInit {
   ngOnInit(): void {
     this.sServ.getSunglasses().subscribe(data => this.sunglasses=data);
   }
-
+  onSelect(sunglasses:any){
+    this.route.navigate(['/sunglasses-detail', sunglasses.id]);
+  }
 }

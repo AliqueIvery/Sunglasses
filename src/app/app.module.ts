@@ -8,7 +8,8 @@ import { EarringListComponent } from './earring-list/earring-list.component';
 import { MaskListComponent } from './mask-list/mask-list.component';
 import {HttpClientModule} from '@angular/common/http';
 import { MaskDetailComponent } from './mask-detail/mask-detail.component';
-import { EarringDetailComponent } from './earring-detail/earring-detail.component'
+import { EarringDetailComponent } from './earring-detail/earring-detail.component';
+import { SunglassesDetailComponent } from './sunglasses-detail/sunglasses-detail.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EarringDetailComponent } from './earring-detail/earring-detail.componen
     EarringListComponent,
     MaskListComponent,
     MaskDetailComponent,
-    EarringDetailComponent
+    EarringDetailComponent,
+    SunglassesDetailComponent
   ],
   imports: [
     BrowserModule,

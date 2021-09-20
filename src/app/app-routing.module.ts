@@ -4,6 +4,7 @@ import { EarringDetailComponent } from './earring-detail/earring-detail.componen
 import { EarringListComponent } from './earring-list/earring-list.component';
 import { MaskDetailComponent } from './mask-detail/mask-detail.component';
 import { MaskListComponent } from './mask-list/mask-list.component';
+import { SunglassesDetailComponent } from './sunglasses-detail/sunglasses-detail.component';
 import { SunglassesListComponent } from './sunglasses-list/sunglasses-list.component';
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path:"masks", component:MaskListComponent},
   {path:"earrings", component: EarringListComponent},
   {path:"mask-detail/:id", component: MaskDetailComponent},
-  {path:"earring-detail/:id", component: EarringDetailComponent}
+  {path:"earring-detail/:id", component: EarringDetailComponent},
+  {path:"sunglasses-detail/:id", component: SunglassesDetailComponent}
 ];
 
 @NgModule({
@@ -19,4 +21,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [SunglassesListComponent,MaskListComponent,EarringListComponent,MaskDetailComponent, EarringDetailComponent]
+export const routingComponents = [SunglassesListComponent,MaskListComponent,EarringListComponent,MaskDetailComponent, EarringDetailComponent,SunglassesDetailComponent]

@@ -1,0 +1,16 @@
+<div id="sunglasses-detail">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Brand</th>
+            <th>Color</th>
+            <th>Quantity</th>
+        </tr>
+        <tr *ngFor="let glasses of sunglasses">
+            <td *ngIf="id == glasses.id">{{glasses.id}}</td>
+            <td *ngIf="id == glasses.id">{{glasses.brand}}</td>
+            <td *ngIf="id == glasses.id">{{glasses.color}}</td>
+            <td *ngIf="id == glasses.id">{{glasses.quantity}}</td>
+        </tr>
+    </table>
+</div>
