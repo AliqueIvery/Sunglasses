@@ -1,0 +1,9 @@
+<div id="login" style="text-align: center;">
+    <form>
+        <label for="username">Username</label><br>
+        <input #name type="text" id="username" name="username" ><br>
+        <label for="password">Password</label><br>
+        <input type="text" id="password" name="password"><br>
+        <input type="submit" (click)="attemptLogin(name.value)">
+    </form>
+</div>

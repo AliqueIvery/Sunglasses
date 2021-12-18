@@ -9,7 +9,9 @@ import { MaskListComponent } from './mask-list/mask-list.component';
 import {HttpClientModule} from '@angular/common/http';
 import { MaskDetailComponent } from './mask-detail/mask-detail.component';
 import { EarringDetailComponent } from './earring-detail/earring-detail.component';
-import { SunglassesDetailComponent } from './sunglasses-detail/sunglasses-detail.component'
+import { SunglassesDetailComponent } from './sunglasses-detail/sunglasses-detail.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { RegisterPageComponent } from './register-page/register-page.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SunglassesDetailComponent } from './sunglasses-detail/sunglasses-detail
     MaskListComponent,
     MaskDetailComponent,
     EarringDetailComponent,
-    SunglassesDetailComponent
+    SunglassesDetailComponent,
+    LoginPageComponent,
+    RegisterPageComponent
   ],
   imports: [
     BrowserModule,
